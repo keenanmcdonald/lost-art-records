@@ -28,17 +28,72 @@ const ALBUMS = [
       'My Reasons Why',
       'If I Could Only Fly',
     ],
-    purchaseLink: (
-      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick"/>
-        <input type="hidden" name="hosted_button_id" value="ZPQ9L659RZWP8"/>
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-      </form>
-    ),
+    purchase: [
+      {
+        format: 'Vinyl',
+        price: '$18.00',
+        link: (
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick"/>
+            <input type="hidden" name="hosted_button_id" value="ZPQ9L659RZWP8"/>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+          </form>
+        )
+      }
+    ],
     pagePath: '/claypigeons'
   },
-  {title: 'The Lost Muscle Shoals Recordings', artist: 'Blaze Foley', coverFileName: 'muscle-shoals-cover.jpg'},
+  {
+    title: 'The Lost Muscle Shoals Recordings', 
+    artist: 'Blaze Foley', 
+    coverFileName: 'muscle-shoals-cover.jpg',
+    description: ['Reissue of the first album recorded by the legendary Austin singer-songwriter who was tragically murdered in 1989. Recorded with Muscle Shoals studio musicians in 1984, the album was never distributed due to "some trouble with the law" resulting in the confiscation of most of the 500 copies originally pressed. These recordings find Blaze in a rare studio setting performing ten of his well-known compositions including the apparently timeless resistance song, Oval Room, originally written with Ronald Reagan in mind. The outstanding production values and musicianship breathe fresh air into these classic Blaze compositions. The original recordings have been digitally mastered by Austin engineer Mark Hallman.', '(LAR 1021 & 1021V, EOA2, 2017)'],
+    notes: 'Recorded in 1984 at Broadway Sound Studio, Sheffield AL. Featuring the Muscle Shoals Horns, Gurf Morlix, Roger Clark, Clayton Ivey, John Willis, Cal Freeman, Ava Aldridge, Cindy Richardson & Lenny LeBlanc. All Songs Written by Blaze Foley © Texas Ghostwriters Music (BMI)',
+    quote: '"This album is a treasure. If you\'re a Blaze fan, you must have this album." -Gurf Morlix',
+    tracks: [
+      'Girl Scout Cookies',
+      'Darlin\'',
+      'The Way You Smile',
+      'Oval Room',
+      'Rainbows and Ridges',
+      'Picture Cards',
+      'Getting Over You',
+      'Where Are You Now My Love?',
+      'My Reasons Why',
+      'Lovin\' You',
+      ],
+    purchase: [
+      {
+        format: 'Vinyl', 
+        price: '$20.00',
+        link: (
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick"/>
+            <input type="hidden" name="hosted_button_id" value="2LCJ64SQDDQWN"/>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+          </form>
+        )
+      },
+      {
+        format: 'CD',
+        price: '$15.99',
+        link: (
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick"/>
+            <input type="hidden" name="hosted_button_id" value="CGBR8D8NF4KZQ"/>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+          </form>
+        )
+      }
+    ],
+    pagePath: '/muscleshoals',
+    spotify: (
+    <iframe title='muscleshoals-spotify' src="https://open.spotify.com/embed/album/0zBGDWj6N9CvqfhZSTwy27" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    )
+  },
   {title: 'Duct Tape Messiah', artist: 'Blaze Foley', coverFileName: 'duct-tape-messiah-cover.jpg'},
   {title: 'Sitting by the Road', artist: 'Blaze Foley', coverFileName: 'sitting-by-the-road-cover.jpg'},
   {title: 'Cold Cold World', artist: 'Blaze Foley', coverFileName: 'cold-cold-world-cover.jpg'},
@@ -60,8 +115,8 @@ function App(props) {
       </header>
         <Route exact path='/' render={() => <AlbumList albums={ALBUMS}/>}/>
         <Route path='/claypigeons' render={() => <AlbumPage {...ALBUMS[0]}/>}/>
+        <Route path='/muscleshoals' render={() => <AlbumPage {...ALBUMS[1]}/>}/>
       <footer>
-        <h2>Contact</h2>
         <div className='contact-info'>
           <p>1102 Live Oak Ridge, Austin, Texas 78746</p>
           <p><a href='mailto:music@lostartrecords.com'>music@lostartrecords.com</a></p>
