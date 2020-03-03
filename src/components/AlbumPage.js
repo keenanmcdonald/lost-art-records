@@ -21,7 +21,7 @@ function AlbumPage(props) {
                 <div className='tracks-and-notes'>
                     <h3>Track Listing</h3>
                     {tracklist}
-                    <p>{props.notes}</p>
+                    <p className='notes'>{props.notes}</p>
                     <p>Purchase Vinyl: $18:00</p>
                     {props.purchaseLink}
                 </div>

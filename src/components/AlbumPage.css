@@ -5,13 +5,14 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 50px;
+    margin-top: 0px;
 }
 
 .album-page>div{
     margin: 10px;
 }
 
-.album-page .album-page-cover{
+.album-page-cover{
     max-height: 500px;
     max-width: 500px;
     object-fit: none;
@@ -21,11 +22,13 @@
     flex: 2;
 }
 
-.right-box{
+div.right-box{
     flex: 3;
     border: 1px solid black;
     border-radius: 2px;
     padding: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .tracks-and-notes{
@@ -45,3 +48,25 @@ li{
     padding: 20px 40px;
     text-align: center;
 }
+
+.notes{
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .album-page-cover{
+      width: 180px;
+      height: 180px;
+      object-fit: fill;
+    }
+
+    div.right-box, .tracks-and-notes{
+        padding: 5px;
+        padding-top: 0px;
+    }
+
+    .quote{
+        padding: 4px;
+    }
+  }
+  

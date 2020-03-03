@@ -1,6 +1,6 @@
 body{
-  background-color: #EEECE1;
-  color: black;
+  background-color: black;
+  color: white;
   font-family: serif;
 }
 
@@ -28,23 +28,26 @@ p {
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 header{
-  height: 120px;
+  height: 20%;
   text-align: center;
 }
 
 main{
   text-align: center;
-  border-top: 4px solid black;
   margin: 20px;
 }
 
 footer{
   padding-top: 10px;
   text-align: center;
+}
+
+.logo-title{
+  width: 50%;
 }
 
 .logo-title:hover{
@@ -97,11 +100,11 @@ footer{
 }
 
 .album-icon:hover .album-cover{
-  filter: blur(5px) grayscale(70%) opacity(50%);
+  filter: blur(5px) grayscale(90%) opacity(60%);
 }
 
 .overlay-text {
-  color: black;
+  color: white;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -110,4 +113,21 @@ footer{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.title{
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .album-icon{
+    width: 180px;
+    height: 180px;
+  }
+  .logo-title{
+    width: 70%;
+  }
+  p, a, li{
+    font-size: 14px;
+  }
 }
