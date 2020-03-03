@@ -9,7 +9,12 @@ const ALBUMS = [
     title: 'Clay Pigeons', 
     artist: 'Blaze Foley', 
     coverFileName: 'clay-pigeons-cover.jpg', 
-    description: 'Reissue of the 2011 vinyl-only collection of 12 Blaze tracks released by Secret Seven Records. Compiled from home, studio and intimate live recordings between 1976 - 1988, this \'Best of Blaze\' sampler features Blaze\'s renditions of songs since covered by Merle Haggard, Willie Nelson, Lyle Lovett and John Prine. Culled from posthumous CDs released by Lost Art Records and Fat Possum, Clay Pigeons\' 2011 release marked the first available vinyl LP from one of Texas\' most unique and soulful singer-songwriters.', 
+    description: [
+      'Reissue of the 2011 vinyl-only collection of 12 Blaze tracks released by Secret Seven Records. Compiled from home, studio and intimate live recordings between 1976 - 1988, this \'Best of Blaze\' sampler features Blaze\'s renditions of songs since covered by Merle Haggard, Willie Nelson, Lyle Lovett and John Prine. Culled from posthumous CDs released by Lost Art Records and Fat Possum, Clay Pigeons\' 2011 release marked the first available vinyl LP from one of Texas\' most unique and soulful singer-songwriters.',
+      'Widespread recognition eluded Blaze during his lifetime. Murdered in an early morning altercation just days following the recording sessions for his Live at the Austin Outhouse release, Blaze was just 39 years old. Two tracks from those sessions appear on this LP. Blaze\'s reputation as a singer-songwriter has exploded in recent years. Lucinda Williams\' \"Drunken Angel,\" and Townes Van Zandt\'s \"Blaze\'s Blues,\" both heartfelt personal tributes to their good friend Foley, have added to a legacy once nearly forgotten.'
+    ],
+    notes: 'Musicians: Blaze Foley, Gurf Morlix, Jimmy Don Smith, Tony Braunagel, John Hill, Riley Osbourn, Ed Bradfield, Sarah Elizabeth Campbell, Lost John Casner, Champ Hood, David Waddell.',
+    quote: `"Blaze is one of the most spiritual cats I’ve ever met; an ace finger picker; a writer who never shirks the truth and never fails to rhyme," – Townes Van Zandt.`,
     tracks: [
       'Clay Pigeons',
       'You’ll Get Yours Aplenty',
@@ -56,7 +61,7 @@ function App(props) {
         <Route exact path='/' render={() => <AlbumList albums={ALBUMS}/>}/>
         <Route path='/claypigeons' render={() => <AlbumPage {...ALBUMS[0]}/>}/>
       <footer>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <div className='contact-info'>
           <p>1102 Live Oak Ridge, Austin, Texas 78746</p>
           <p><a href='mailto:music@lostartrecords.com'>music@lostartrecords.com</a></p>
