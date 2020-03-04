@@ -1,6 +1,6 @@
 body{
   background-color: black;
-  color: white;
+  color: rgb(240, 240, 240);
   font-family: serif;
 }
 
@@ -9,14 +9,12 @@ h1{
   font-weight: 600;
   font-family: cooper-black-std;
   margin: 0px;
-
 }
 
 h2{
   margin-top: 0px;
   font-size: 40px;
   font-family: cooper-black-std;
-
 }
 
 h3{
@@ -27,10 +25,11 @@ h3{
 p {
   font-size: 20px;
   margin-top: 20px;
+  letter-spacing: 2px;
 }
 
 a {
-  color: white;
+  color: rgb(240, 240, 240);
 }
 
 header{
@@ -106,9 +105,9 @@ footer{
 }
 
 .overlay-text {
-  color: white;
+  color: rgb(240, 240, 240);
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   width: 100%;
   -webkit-transform: translate(-50%, -50%);
@@ -117,12 +116,11 @@ footer{
   text-align: center;
 }
 
-.title{
-  font-size: 24px;
-}
-
 .contact-info{
-  border-top: 1px white solid;
+  border-top: 1px rgb(240, 240, 240) solid;
+}
+.contact-info p, .contact-info a{
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -136,4 +134,11 @@ footer{
   p, a, li{
     font-size: 14px;
   }
+  .album-overlay{
+    display: none;
+  }
+  .album-icon:hover .album-cover{
+    filter: none;
+  }
+  
 }

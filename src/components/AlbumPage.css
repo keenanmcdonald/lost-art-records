@@ -11,6 +11,12 @@
 .album-page>div{
     margin: 10px;
 }
+.title{
+    font-size: 36px;
+}
+.artist{
+    font-size: 20px;
+}
 
 .album-page-cover{
     max-height: 500px;
@@ -24,7 +30,6 @@
 
 div.right-box{
     flex: 3;
-    border: 1px solid black;
     border-radius: 2px;
     padding: 20px;
     padding-top: 0px;
@@ -32,7 +37,6 @@ div.right-box{
 }
 
 .tracks-and-notes{
-    border: 1px solid black;
     border-radius: 2px;
     padding: 20px;
     margin: 0px;
