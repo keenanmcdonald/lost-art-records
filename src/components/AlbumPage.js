@@ -3,11 +3,12 @@ import './AlbumPage.css'
 
 function AlbumPage(props) {
 
-    const tracklist = []
     const descriptionParagraphs = []
     const purchaseLinks = []
 
     /*
+        const tracklist = []
+
     for (let i = 0; i < props.tracks.length; i++){
         tracklist.push(<li className='track-title' key={i}>{`${i+1}. ${props.tracks[i]}`}</li> )
     }*/

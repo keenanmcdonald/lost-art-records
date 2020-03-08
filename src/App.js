@@ -95,11 +95,19 @@ const ALBUMS = [
     )
   },
   {
-    title: 'Duct Tape Messiah', 
+    title: 'Live at the Austin Outhouse', 
     artist: 'Blaze Foley', 
-    coverFileName: 'duct-tape-messiah-cover.jpg',
-    description: [`Soundtrack CD from Kevin Triplett's acclaimed documentary film Blaze Foley: Duct Tape Messiah. CD contains 16 tracks that literally span Blaze's musical life. Includes rare archival tracks never before released as well as tracks from posthumously released Blaze albums. This compilation from the film soundtrack is a sparkling gem!`, `To learn more about the documentary film visit: {<a href='www.blazefoleymovie.com'>www.blazefoleymovie.com</a>}.}`, `(LAR 1021, April 2011)`],
-    notes: '',
+    coverFileName: 'austin-outhouse-cover.jpg',
+    description: [`Recorded on December 1988 at Blaze’s 'home club,' Live at the Austin Outhouse captures Blaze at his honest best just four weeks before his murder. Originally issued as a cassette in l989, Outhouse is filled with the best of Foley’s songs including “If I Could Only Fly,” which Merle Haggard called “The best country song I’ve heard in 15 years.”`, `(LAR 1015, 1999)`],
+    notes: `
+      Blaze Foley: Vocals, guitar.
+      Ed Bradfield: Harmonica.
+      Sarah Elizabeth Campbell: Vocals.
+      Lost John Casner: Piano.
+      Champ Hood: Fiddle.
+      David Waddell: Bass.
+    `,
+    quote: '',
     purchase: [
       {
         format: 'CD',
@@ -107,16 +115,16 @@ const ALBUMS = [
         link: (
           <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick"/>
-            <input type="hidden" name="hosted_button_id" value="LJ2LFFVJP5WGU"/>
-            <input type="image" src="https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-            <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/scr/pixel.gif" width="1" height="1"/>
-          </form>
+            <input type="hidden" name="hosted_button_id" value="KHSC722J6FDEN"/>
+            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+          </form>        
         )
-      }
+      },
     ],
-    pagePath: '/ducttapemessiah',
+    pagePath: '/austinouthouse',
     spotify: (
-      <iframe title='ducttapemessiah-spotify' src="https://open.spotify.com/embed/album/5fGFITqMvi1G0lQBplF4Ci" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe title='austinouthouse-spotify' src="https://open.spotify.com/embed/album/20jfTvbCUwJjOAhPkeIv61" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     ),
   },
   {
@@ -234,19 +242,11 @@ const ALBUMS = [
     ),
   },
   {
-    title: 'Live at the Austin Outhouse', 
+    title: 'Duct Tape Messiah', 
     artist: 'Blaze Foley', 
-    coverFileName: 'austin-outhouse-cover.jpg',
-    description: [`Recorded on December 1988 at Blaze’s 'home club,' Live at the Austin Outhouse captures Blaze at his honest best just four weeks before his murder. Originally issued as a cassette in l989, Outhouse is filled with the best of Foley’s songs including “If I Could Only Fly,” which Merle Haggard called “The best country song I’ve heard in 15 years.”`, `(LAR 1015, 1999)`],
-    notes: `
-      Blaze Foley: Vocals, guitar.
-      Ed Bradfield: Harmonica.
-      Sarah Elizabeth Campbell: Vocals.
-      Lost John Casner: Piano.
-      Champ Hood: Fiddle.
-      David Waddell: Bass.
-    `,
-    quote: '',
+    coverFileName: 'duct-tape-messiah-cover.jpg',
+    description: [`Soundtrack CD from Kevin Triplett's acclaimed documentary film Blaze Foley: Duct Tape Messiah. CD contains 16 tracks that literally span Blaze's musical life. Includes rare archival tracks never before released as well as tracks from posthumously released Blaze albums. This compilation from the film soundtrack is a sparkling gem!`, `To learn more about the documentary film visit: {<a href='www.blazefoleymovie.com'>www.blazefoleymovie.com</a>}.}`, `(LAR 1021, April 2011)`],
+    notes: '',
     purchase: [
       {
         format: 'CD',
@@ -254,16 +254,16 @@ const ALBUMS = [
         link: (
           <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick"/>
-            <input type="hidden" name="hosted_button_id" value="KHSC722J6FDEN"/>
-            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-          </form>        
+            <input type="hidden" name="hosted_button_id" value="LJ2LFFVJP5WGU"/>
+            <input type="image" src="https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+            <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/scr/pixel.gif" width="1" height="1"/>
+          </form>
         )
-      },
+      }
     ],
-    pagePath: '/austinouthouse',
+    pagePath: '/ducttapemessiah',
     spotify: (
-      <iframe title='austinouthouse-spotify' src="https://open.spotify.com/embed/album/20jfTvbCUwJjOAhPkeIv61" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe title='ducttapemessiah-spotify' src="https://open.spotify.com/embed/album/5fGFITqMvi1G0lQBplF4Ci" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     ),
   },
   {
@@ -309,11 +309,11 @@ function App(props) {
         <Route exact path='/' render={() => <AlbumList albums={ALBUMS}/>}/>
         <Route path='/claypigeons' render={() => <AlbumPage {...ALBUMS[0]}/>}/>
         <Route path='/muscleshoals' render={() => <AlbumPage {...ALBUMS[1]}/>}/>
-        <Route path='/ducttapemessiah' render={() => <AlbumPage {...ALBUMS[2]}/>}/>
+        <Route path='/austinouthouse' render={() => <AlbumPage {...ALBUMS[2]}/>}/>
         <Route path='/sittinbytheroad' render={() => <AlbumPage {...ALBUMS[3]}/>}/>
         <Route path='/coldcoldworld' render={() => <AlbumPage {...ALBUMS[4]}/>}/>
         <Route path='/ovalroom' render={() => <AlbumPage {...ALBUMS[5]}/>}/>
-        <Route path='/austinouthouse' render={() => <AlbumPage {...ALBUMS[6]}/>}/>
+        <Route path='/ducttapemessiah' render={() => <AlbumPage {...ALBUMS[6]}/>}/>
         <Route path='/billneely' render={() => <AlbumPage {...ALBUMS[7]}/>}/>
       <footer>
         <div className='contact-info'>
