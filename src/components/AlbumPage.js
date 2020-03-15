@@ -27,21 +27,29 @@ function AlbumPage(props) {
     }
     return (
         <main className='album-page'>
-            <div className='left-box'>
+            <div className='album-cover-container center-content'>
                 <img className='album-page-cover' alt={`album cover`} src={require(`../images/${props.coverFileName}`)}/>
-                <div className='listen-and-purchase'>
-                    {props.spotify ? <h3>Listen on Spotify</h3> : ''}
-                    {props.spotify ? props.spotify : ''}
-                    <h3>Purchase</h3>
-                    {purchaseLinks}
-                </div>
             </div>
-            <div className='right-box'>
+            <div className='title-container'>
                 <h1 className='artist'>{props.artist}</h1>
                 <h2 className='title'>{props.title}</h2>
+            </div> 
+            <div className='description-container wide'>
                 {descriptionParagraphs}
+            </div>
+            <div className='quote-container wide center-content'>
                 <p className='quote'>{props.quote}</p>
+            </div>
+            <div className='notes-container wide'>
                 <p className='notes'>{props.notes}</p>
+            </div>
+            <div className='spotify-container center-content'>
+                {props.spotify ? <h3>Listen on Spotify</h3> : ''}
+                {props.spotify ? props.spotify : ''}
+            </div>
+            <div className='purchase-container center-content'>
+                <h3>Purchase</h3>
+                {purchaseLinks}
             </div>
         </main>
     )

@@ -304,7 +304,8 @@ function App(props) {
   return (
     <div className="App">
       <header>
-        <img className='logo-title' alt='logo-title' src={require('./images/title-logo.jpg')} onClick={() => toHomePage()}/>
+        <img className='logo-title' alt='lost art records title' src={require('./images/title-logo.jpg')} onClick={() => toHomePage()}/>
+        <img className='mic-logo' alt='microphone logo' src={require('./images/mic-logo.jpg')} onClick={() => toHomePage()}/>
       </header>
         <Route exact path='/' render={() => <AlbumList albums={ALBUMS}/>}/>
         <Route path='/claypigeons' render={() => <AlbumPage {...ALBUMS[0]}/>}/>

@@ -51,6 +51,10 @@ footer{
   width: 50%;
 }
 
+.mic-logo{
+  height: 70px;
+}
+
 .logo-title:hover{
   cursor: pointer;
 }
