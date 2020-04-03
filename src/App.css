@@ -1,7 +1,7 @@
 body{
   background-color: black;
   color: rgb(240, 240, 240);
-  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1{
@@ -27,6 +27,7 @@ p {
   margin-top: 20px;
   letter-spacing: 2px;
 }
+
 
 a {
   color: rgb(240, 240, 240);

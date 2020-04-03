@@ -27,8 +27,8 @@ function AlbumPage(props) {
     }
     return (
         <main className='album-page'>
-            <div className='album-cover-container center-content'>
-                <img className='album-page-cover' alt={`album cover`} src={require(`../images/${props.coverFileName}`)}/>
+            <div className='album-cover-container'>
+                <img className='album-page-cover' alt={`album cover`} src={props.albumPageCoverFileName ? require(`../images/${props.albumPageCoverFileName}`) : require(`../images/${props.coverFileName}`)}/>
             </div>
             <div className='title-container'>
                 <h1 className='artist'>{props.artist}</h1>
@@ -38,19 +38,27 @@ function AlbumPage(props) {
                 {descriptionParagraphs}
             </div>
             <div className='quote-container wide center-content'>
-                <p className='quote'>{props.quote}</p>
+                {props.quote ? <p className='quote'>{props.quote}</p> : ''}
             </div>
             <div className='notes-container wide'>
-                <p className='notes'>{props.notes}</p>
+                {props.notes ? <p className='notes'>{props.notes}</p> : ''}
             </div>
-            <div className='spotify-container center-content'>
-                {props.spotify ? <h3>Listen on Spotify</h3> : ''}
-                {props.spotify ? props.spotify : ''}
-            </div>
+            {props.spotify ? (
+                <div className='spotify-container center-content'>
+                    <h3>Listen on Spotify</h3>
+                    {props.spotify}
+                </div>
+            ) : ''}
             <div className='purchase-container center-content'>
                 <h3>Purchase</h3>
                 {purchaseLinks}
             </div>
+            {props.video ? (
+                <div className='video-container'>
+                    {props.video ? props.video : ''}
+                </div>
+            ) : ''}
+
         </main>
     )
 }

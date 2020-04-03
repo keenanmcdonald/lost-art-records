@@ -3,6 +3,7 @@ import AlbumList from './components/AlbumList'
 import AlbumPage from './components/AlbumPage'
 import {Route, withRouter} from 'react-router-dom'
 import './App.css';
+import ScrollToTop from './components/ScrollToTop'
 
 const ALBUMS = [
   {
@@ -98,7 +99,7 @@ const ALBUMS = [
     title: 'Live at the Austin Outhouse', 
     artist: 'Blaze Foley', 
     coverFileName: 'austin-outhouse-cover.jpg',
-    description: [`Recorded on December 1988 at Blaze’s 'home club,' Live at the Austin Outhouse captures Blaze at his honest best just four weeks before his murder. Originally issued as a cassette in l989, Outhouse is filled with the best of Foley’s songs including “If I Could Only Fly,” which Merle Haggard called “The best country song I’ve heard in 15 years.”`, `(LAR 1015, 1999)`],
+    description: [`*Vinyl Record Store Day package available on June 20.`, `“Live at the Austin Outhouse” captures Blaze Foley, Austin's legendary singer-songwriter, at his final appearance at the iconic Austin Outhouse venue. Recorded over two nights in 1989 just days before his tragic murder these twelve tracks are available on CD and vinyl LP for the first time.  Recorded by his friend John Casner these now classic Blaze tracks were for years only shared on hand-made cassettes among a small network of friends and fans.  The vinyl Record Store Day package marks the twenty-year anniversary of their initial release on CD.`, `The tracks here include a number of Blaze classics; Clay Pigeons (covered by John Prine), If I Could Only Fly (covered by Merle Haggard), Election Day (covered by Lyle Lovett) and nine others.  Blaze is joined in this set by several of Austin’s most beloved musicians including Champ Hood and Sarah Elizabeth Campbell. “Live at the Austin Outhouse” reveals Blaze to be as talented and soulful as his friends and running buddies Townes Van Zandt and Lucinda Williams.`, `The exclusive Record Store Day package includes a bonus reproduction copy of Blaze’s rare 1979 Zephyr Records 45 RPM record.  Recorded in Houston, Texas on a label that quickly disappeared, the Zephyr 45 never received commercial distribution.  The 45 includes an unreleased studio version of “If I Could Only Fly” and a track that was included in the Duct Tape Messiah soundtrack “Let Me Ride in Your Big Cadillac.”` , `(LAR 1015, 1999)`],
     notes: `
       Blaze Foley: Vocals, guitar.
       Ed Bradfield: Harmonica.
@@ -245,7 +246,7 @@ const ALBUMS = [
     title: 'Duct Tape Messiah', 
     artist: 'Blaze Foley', 
     coverFileName: 'duct-tape-messiah-cover.jpg',
-    description: [`Soundtrack CD from Kevin Triplett's acclaimed documentary film Blaze Foley: Duct Tape Messiah. CD contains 16 tracks that literally span Blaze's musical life. Includes rare archival tracks never before released as well as tracks from posthumously released Blaze albums. This compilation from the film soundtrack is a sparkling gem!`, `To learn more about the documentary film visit: {<a href='www.blazefoleymovie.com'>www.blazefoleymovie.com</a>}.}`, `(LAR 1021, April 2011)`],
+    description: [`Soundtrack CD from Kevin Triplett's acclaimed documentary film Blaze Foley: Duct Tape Messiah. CD contains 16 tracks that literally span Blaze's musical life. Includes rare archival tracks never before released as well as tracks from posthumously released Blaze albums. This compilation from the film soundtrack is a sparkling gem!`, `(LAR 1021, April 2011)`, `To learn more about the documentary film visit: `, <a href='www.blazefoleymovie.com'>www.blazefoleymovie.com</a>],
     notes: '',
     purchase: [
       {
@@ -293,6 +294,32 @@ const ALBUMS = [
     ],
     pagePath: '/billneely',
   },
+  {
+    title: 'Duct Tape Messiah - Deluxe Edition', 
+    artist: '', 
+    coverFileName: 'duct-tape-doc-cover.jpg',
+    albumPageCoverFileName: 'duct-tape-deluxe-cover.jpg',
+    description: [`The award-winning documentary film Duct Tape Messiah by Kevin Triplett captures the legend of the iconic Texas singer-songwriter Blaze Foley. This 80-minute (director's cut) film provides insight into a complex songwriter's life by highlighting his roller-coaster career and detailing his transformation from musician to master songwriter. A must-have for anyone curious about Blaze's story and what it takes to become an authentic craftsman of songs. This deluxe edition includes an additional three hours of rare archival video performances by Blaze, additional animation, candid interviews, and deleted scenes.`, `(LAR/ABP 1002, April 2014)`],
+    quote: '',
+    purchase: [
+      {
+        format: 'DVD',
+        price: '$18.00',
+        link: (
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick"/>
+            <input type="hidden" name="hosted_button_id" value="QAGSMPA63SQDJ"/>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+          </form>
+        )
+      },
+    ],
+    pagePath: '/ducttapedoc',
+    video: (
+      <iframe title='duct-tape-messiah-trailer' width="560" height="315" src="https://www.youtube.com/embed/tz2kULLO0Sc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    )
+  },
 ]
 
 
@@ -303,6 +330,7 @@ function App(props) {
 
   return (
     <div className="App">
+      <ScrollToTop/>
       <header>
         <img className='logo-title' alt='lost art records title' src={require('./images/title-logo.jpg')} onClick={() => toHomePage()}/>
         <img className='mic-logo' alt='microphone logo' src={require('./images/mic-logo.jpg')} onClick={() => toHomePage()}/>
@@ -316,6 +344,7 @@ function App(props) {
         <Route path='/ovalroom' render={() => <AlbumPage {...ALBUMS[5]}/>}/>
         <Route path='/ducttapemessiah' render={() => <AlbumPage {...ALBUMS[6]}/>}/>
         <Route path='/billneely' render={() => <AlbumPage {...ALBUMS[7]}/>}/>
+        <Route path='/ducttapedoc' render={() => <AlbumPage {...ALBUMS[8]}/>}/>
       <footer>
         <div className='contact-info'>
           <p>1102 Live Oak Ridge, Austin, Texas 78746</p>
