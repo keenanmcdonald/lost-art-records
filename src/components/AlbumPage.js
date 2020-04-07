@@ -33,6 +33,7 @@ function AlbumPage(props) {
             <div className='title-container'>
                 <h1 className='artist'>{props.artist}</h1>
                 <h2 className='title'>{props.title}</h2>
+                {props.tag ? <p className='tag'>{props.tag}</p> : ''}
             </div> 
             <div className='description-container wide'>
                 {descriptionParagraphs}
@@ -62,6 +63,4 @@ function AlbumPage(props) {
         </main>
     )
 }
-
-
 export default AlbumPage

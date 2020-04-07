@@ -98,8 +98,9 @@ const ALBUMS = [
   {
     title: 'Live at the Austin Outhouse', 
     artist: 'Blaze Foley', 
+    tag: 'Available on CD and Vinyl LP',
     coverFileName: 'austin-outhouse-cover.jpg',
-    description: [`*Vinyl Record Store Day package available on June 20.`, `“Live at the Austin Outhouse” captures Blaze Foley, Austin's legendary singer-songwriter, at his final appearance at the iconic Austin Outhouse venue. Recorded over two nights in 1989 just days before his tragic murder these twelve tracks are available on CD and vinyl LP for the first time.  Recorded by his friend John Casner these now classic Blaze tracks were for years only shared on hand-made cassettes among a small network of friends and fans.  The vinyl Record Store Day package marks the twenty-year anniversary of their initial release on CD.`, `The tracks here include a number of Blaze classics; Clay Pigeons (covered by John Prine), If I Could Only Fly (covered by Merle Haggard), Election Day (covered by Lyle Lovett) and nine others.  Blaze is joined in this set by several of Austin’s most beloved musicians including Champ Hood and Sarah Elizabeth Campbell. “Live at the Austin Outhouse” reveals Blaze to be as talented and soulful as his friends and running buddies Townes Van Zandt and Lucinda Williams.`, `The exclusive Record Store Day package includes a bonus reproduction copy of Blaze’s rare 1979 Zephyr Records 45 RPM record.  Recorded in Houston, Texas on a label that quickly disappeared, the Zephyr 45 never received commercial distribution.  The 45 includes an unreleased studio version of “If I Could Only Fly” and a track that was included in the Duct Tape Messiah soundtrack “Let Me Ride in Your Big Cadillac.”` , `(LAR 1015, 1999)`],
+    description: [`*Vinyl Record Store Day package available on June 20.`, `“Live at the Austin Outhouse” captures Blaze Foley, Austin's legendary singer-songwriter, at his final appearance at the iconic Austin Outhouse venue. Recorded over two nights in 1989 just days before his tragic murder these twelve tracks are available on CD and vinyl LP for the first time.  Recorded by his friend John Casner these now classic Blaze tracks were for years only shared on hand-made cassettes among a small network of friends and fans.  The vinyl Record Store Day package marks the twenty-year anniversary of their initial release on CD.`, `The tracks here include a number of Blaze classics; Clay Pigeons (covered by John Prine), If I Could Only Fly (covered by Merle Haggard), Election Day (covered by Lyle Lovett) and nine others.  Blaze is joined in this set by several of Austin’s most beloved musicians including Champ Hood and Sarah Elizabeth Campbell. “Live at the Austin Outhouse” reveals Blaze to be as talented and soulful as his friends and running buddies Townes Van Zandt and Lucinda Williams.`, `The exclusive Record Store Day package includes a bonus reproduction copy of Blaze’s rare 1979 Zephyr Records 45 RPM record.  Recorded in Houston, Texas on a label that quickly disappeared, the Zephyr 45 never received commercial distribution.  The 45 includes an unreleased studio version of “If I Could Only Fly” and a track that was included in the Duct Tape Messiah soundtrack “Let Me Ride in Your Big Cadillac.”` , `(LAR1015 and LAR1015V, 1999 & 2020)`],
     notes: `
       Blaze Foley: Vocals, guitar.
       Ed Bradfield: Harmonica.
@@ -122,6 +123,18 @@ const ALBUMS = [
           </form>        
         )
       },
+      {
+        format: 'LP and Bonus 45 RPM',
+        price: '$25.00',
+        link: (
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick"/>
+            <input type="hidden" name="hosted_button_id" value="WD77B3487E45S"/>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+          </form>
+        )
+      }
     ],
     pagePath: '/austinouthouse',
     spotify: (
@@ -332,8 +345,8 @@ function App(props) {
     <div className="App">
       <ScrollToTop/>
       <header>
-        <img className='logo-title' alt='lost art records title' src={require('./images/title-logo.jpg')} onClick={() => toHomePage()}/>
-        <img className='mic-logo' alt='microphone logo' src={require('./images/mic-logo.jpg')} onClick={() => toHomePage()}/>
+        <img className='logo-title' alt='lost art records title' src={require('./images/title-logo-lightened.jpg')} onClick={() => toHomePage()}/>
+        <img className='mic-logo' alt='microphone logo' src={require('./images/mic-logo-lightened.jpg')} onClick={() => toHomePage()}/>
       </header>
         <Route exact path='/' render={() => <AlbumList albums={ALBUMS}/>}/>
         <Route path='/claypigeons' render={() => <AlbumPage {...ALBUMS[0]}/>}/>
