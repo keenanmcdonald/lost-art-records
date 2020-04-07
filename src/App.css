@@ -97,11 +97,12 @@ footer{
   background-color: transparent;
 }
 
+
 .album-icon:hover {
   cursor: pointer;
-
 }
 
+/*
 .album-icon:hover .album-overlay {
   opacity: 1;
 }
@@ -109,6 +110,20 @@ footer{
 .album-icon:hover .album-cover{
   filter: blur(5px) grayscale(90%) opacity(40%);
 }
+
+.album-icon:hover ~ .album-icon .album-cover {
+  filter: blur(3px) grayscale(30%) opacity(70%);
+}
+*/
+
+.album-list:hover .album-cover {
+  filter: blur(2px) grayscale(30%) opacity(70%);
+}
+
+.album-icon:hover .album-cover{
+  filter: none;
+}
+
 
 .overlay-text {
   color: rgb(240, 240, 240);
