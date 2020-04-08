@@ -53,7 +53,7 @@ footer{
 }
 
 .mic-logo{
-  height: 70px;
+  width: 5%;
 }
 
 .logo-title:hover{
@@ -74,7 +74,6 @@ footer{
   margin: 1px;
 }
 
-
 .album-cover {
   display: block;
   width: 100%;
@@ -88,35 +87,6 @@ footer{
   cursor: pointer;
 }
 
-
-/*
-.album-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: transparent;
-}
-
-
-.album-icon:hover .album-overlay {
-  opacity: 1;
-}
-
-.album-icon:hover .album-cover{
-  filter: blur(5px) grayscale(90%) opacity(40%);
-}
-
-.album-icon:hover ~ .album-icon .album-cover {
-  filter: blur(3px) grayscale(30%) opacity(70%);
-}
-*/
-
 .album-list:hover .album-cover {
   filter: blur(2px) grayscale(30%) opacity(70%);
 }
@@ -125,18 +95,6 @@ footer{
   filter: none;
 }
 
-
-.overlay-text {
-  color: rgb(240, 240, 240);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 .contact-info{
   border-top: 1px rgb(240, 240, 240) solid;

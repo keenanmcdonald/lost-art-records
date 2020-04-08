@@ -6,13 +6,6 @@ function AlbumPage(props) {
     const descriptionParagraphs = []
     const purchaseLinks = []
 
-    /*
-        const tracklist = []
-
-    for (let i = 0; i < props.tracks.length; i++){
-        tracklist.push(<li className='track-title' key={i}>{`${i+1}. ${props.tracks[i]}`}</li> )
-    }*/
-
     for (let i = 0; i < props.description.length; i++){
         descriptionParagraphs.push(<p className='description' key={i}>{props.description[i]}</p> )
     }
