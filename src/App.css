@@ -36,6 +36,7 @@ a {
 header{
   height: 20%;
   text-align: center;
+  padding-top: 12px;
 }
 
 main{
