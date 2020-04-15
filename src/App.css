@@ -103,6 +103,19 @@ footer{
   font-size: 14px;
 }
 
+@media only screen and (min-width: 1400px) {
+  .album-list {
+    grid-template-columns: 23vw 23vw 23vw 23vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  
+  .album-icon {
+    width: 23vw;
+    height: 23vw;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .album-list {
     grid-template-columns: 45vw 45vw;
