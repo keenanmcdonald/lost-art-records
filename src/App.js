@@ -310,7 +310,7 @@ const ALBUMS = [
   {
     title: 'Duct Tape Messiah - Deluxe Edition', 
     artist: '', 
-    coverFileName: 'duct-tape-doc-cover.jpg',
+    coverFileName: 'duct-tape-deluxe-cover.jpg',
     albumPageCoverFileName: 'duct-tape-deluxe-cover.jpg',
     description: [`The award-winning documentary film Duct Tape Messiah by Kevin Triplett captures the legend of the iconic Texas singer-songwriter Blaze Foley. This 80-minute (director's cut) film provides insight into a complex songwriter's life by highlighting his roller-coaster career and detailing his transformation from musician to master songwriter. A must-have for anyone curious about Blaze's story and what it takes to become an authentic craftsman of songs. This deluxe edition includes an additional three hours of rare archival video performances by Blaze, additional animation, candid interviews, and deleted scenes.`, `(LAR/ABP 1002, April 2014)`],
     quote: '',

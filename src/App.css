@@ -18,8 +18,8 @@ h2{
 }
 
 h3{
+  font-size: 100%;
   font-family: cooper-black-std;
-
 }
 
 p {
@@ -66,6 +66,7 @@ footer{
   grid-template-columns: 30vw 30vw 30vw;
   margin-left: 5vw;
   margin-right: 5vw;
+  margin-top: 40px;
 }
 
 .album-icon {
@@ -73,15 +74,18 @@ footer{
   width: 30vw;
   height: 30vw;
   margin: 1px;
+  text-align: center;
 }
 
 .album-cover {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   transition: .2s ease;
   border-radius: 2px;
   object-fit: fill;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .album-icon:hover {
@@ -94,6 +98,8 @@ footer{
 
 .album-icon:hover .album-cover{
   filter: none;
+  height: 71%;
+  width: 71%;
 }
 
 .contact-info{

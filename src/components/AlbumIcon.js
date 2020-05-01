@@ -11,6 +11,8 @@ function AlbumIcon(props) {
     return (
         <div onClick={() => routeToAlbumPage()} className='album-icon'>
             <img className='album-cover' src={require(`../images/${props.coverFileName}`)} alt={props.title} />
+            <h3 className='artist'>{props.artist}</h3>
+            <h3 className='album-title'>{props.title}</h3>
         </div>
     )
 }
