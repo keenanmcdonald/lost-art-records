@@ -124,7 +124,8 @@ const ALBUMS = [
         )
       },
       {
-        format: 'LP and Bonus 45 RPM',
+        format: 'LP and Bonus 45 RPM*',
+        note: '*ships on or about May 21st',
         price: '$25.00',
         link: (
           <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">

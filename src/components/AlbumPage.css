@@ -27,6 +27,9 @@ p.description, p.quote{
     font-family: 'Roboto Slab', serif;
 }
 
+p.purchase-note{
+    font-size: 14px;
+}
 
 .title{
     font-size: 36px;

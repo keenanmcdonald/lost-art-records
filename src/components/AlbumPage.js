@@ -15,6 +15,7 @@ function AlbumPage(props) {
             <div key={i} className='purchase-link'>
                 <p>{`${props.purchase[i].format}: ${props.purchase[i].price}`}</p>
                 {props.purchase[i].link}
+                {props.purchase[i].note ? <p className='purchase-note'>{props.purchase[i].note}</p> : ''}
             </div>
         )
     }
