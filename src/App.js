@@ -7,28 +7,15 @@ import ScrollToTop from './components/ScrollToTop'
 
 const ALBUMS = [
   {
-    title: 'Clay Pigeons', 
-    artist: 'Blaze Foley', 
-    coverFileName: 'clay-pigeons-cover.jpg', 
+    title: 'Clay Pigeons',
+    artist: 'Blaze Foley',
+    coverFileName: 'clay-pigeons-cover.jpg',
     description: [
       'Reissue of the 2011 vinyl-only collection of 12 Blaze tracks released by Secret Seven Records. Compiled from home, studio and intimate live recordings between 1976 - 1988, this \'Best of Blaze\' sampler features Blaze\'s renditions of songs since covered by Merle Haggard, Willie Nelson, Lyle Lovett and John Prine. Culled from posthumous CDs released by Lost Art Records and Fat Possum, Clay Pigeons\' 2011 release marked the first available vinyl LP from one of Texas\' most unique and soulful singer-songwriters.',
       'Widespread recognition eluded Blaze during his lifetime. Murdered in an early morning altercation just days following the recording sessions for his Live at the Austin Outhouse release, Blaze was just 39 years old. Two tracks from those sessions appear on this LP. Blaze\'s reputation as a singer-songwriter has exploded in recent years. Lucinda Williams\' "Drunken Angel," and Townes Van Zandt\'s "Blaze\'s Blues," both heartfelt personal tributes to their good friend Foley, have added to a legacy once nearly forgotten.'
     ],
     notes: 'Musicians: Blaze Foley, Gurf Morlix, Jimmy Don Smith, Tony Braunagel, John Hill, Riley Osbourn, Ed Bradfield, Sarah Elizabeth Campbell, Lost John Casner, Champ Hood, David Waddell.',
     quote: `"Blaze is one of the most spiritual cats I’ve ever met; an ace finger picker; a writer who never shirks the truth and never fails to rhyme," – Townes Van Zandt.`,
-    tracks: [
-      'Clay Pigeons',
-      'You’ll Get Yours Aplenty',
-      'Election Day',
-      'Lovin\' You',
-      'For Anything Less',
-      'Oval Room',
-      'Down Here Where I Am',
-      'Moonlight',
-      'Rainbows And Ridges',
-      'My Reasons Why',
-      'If I Could Only Fly',
-    ],
     purchase: [
       {
         format: 'Vinyl',
@@ -52,18 +39,6 @@ const ALBUMS = [
     description: ['Reissue of the first album recorded by the legendary Austin singer-songwriter who was tragically murdered in 1989. Recorded with Muscle Shoals studio musicians in 1984, the album was never distributed due to "some trouble with the law" resulting in the confiscation of most of the 500 copies originally pressed.', 'These recordings find Blaze in a rare studio setting performing ten of his well-known compositions including the apparently timeless resistance song, Oval Room, originally written with Ronald Reagan in mind. The outstanding production values and musicianship breathe fresh air into these classic Blaze compositions. The original recordings have been digitally mastered by Austin engineer Mark Hallman.', '(LAR 1021 & 1021V, EOA2, 2017)'],
     notes: 'Recorded in 1984 at Broadway Sound Studio, Sheffield AL. Featuring the Muscle Shoals Horns, Gurf Morlix, Roger Clark, Clayton Ivey, John Willis, Cal Freeman, Ava Aldridge, Cindy Richardson & Lenny LeBlanc. All Songs Written by Blaze Foley © Texas Ghostwriters Music (BMI)',
     quote: '"This album is a treasure. If you\'re a Blaze fan, you must have this album." -Gurf Morlix',
-    tracks: [
-      'Girl Scout Cookies',
-      'Darlin\'',
-      'The Way You Smile',
-      'Oval Room',
-      'Rainbows and Ridges',
-      'Picture Cards',
-      'Getting Over You',
-      'Where Are You Now My Love?',
-      'My Reasons Why',
-      'Lovin\' You',
-      ],
     purchase: [
       {
         format: 'Vinyl', 
@@ -124,17 +99,15 @@ const ALBUMS = [
         )
       },
       {
-        format: 'LP and Bonus 45 RPM*',
-        note: '*ships on or about May 21st',
+        format: 'LP and Bonus 45 RPM',
         price: '$25.00',
         link: (
-          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick"/>
-            <input type="hidden" name="hosted_button_id" value="WD77B3487E45S"/>
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-          </form>
-        )
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick"/>
+              <input type="hidden" name="hosted_button_id" value="68TU5VLRSSK8A"/>
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+            </form>        )
       }
     ],
     pagePath: '/austinouthouse',
@@ -302,7 +275,7 @@ const ALBUMS = [
             <input type="hidden" name="hosted_button_id" value="WGSW6YCYQ6LEN"/>
             <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
             <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-          </form>        
+          </form>
         )
       },
     ],
