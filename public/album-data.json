@@ -8,67 +8,7 @@
     "purchase": [{
         "format": "Vinyl",
         "price": "$18.00",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "HT544KCHMQZTU"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypalobjects.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"HT544KCHMQZTU\"/>\n              <input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>\n          "
     }],
     "pagePath": "/claypigeons"
 }, {
@@ -81,634 +21,79 @@
     "purchase": [{
         "format": "Vinyl",
         "price": "$20.00",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "2LCJ64SQDDQWN"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypalobjects.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"2LCJ64SQDDQWN\"/>\n              <input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>\n          "
     }, {
         "format": "CD",
         "price": "$15.99",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "CGBR8D8NF4KZQ"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypalobjects.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"CGBR8D8NF4KZQ\"/>\n              <input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>\n          "
     }],
     "pagePath": "/muscleshoals",
-    "spotify": {
-        "type": "iframe",
-        "key": null,
-        "ref": null,
-        "props": {
-            "title": "muscleshoals-spotify",
-            "src": "https://open.spotify.com/embed/album/0zBGDWj6N9CvqfhZSTwy27",
-            "width": "300",
-            "height": "380",
-            "frameBorder": "0",
-            "allowtransparency": "true",
-            "allow": "encrypted-media"
-        },
-        "_owner": null,
-        "_store": {}
-    }
+    "spotify": "\n      <iframe title='muscleshoals-spotify' src=\"https://open.spotify.com/embed/album/0zBGDWj6N9CvqfhZSTwy27\" width=\"300\" height=\"380\" frameBorder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      "
 }, {
     "title": "Live at the Austin Outhouse",
     "artist": "Blaze Foley",
     "tag": "Available on CD and Vinyl LP",
     "coverFileName": "austin-outhouse-cover.jpg",
     "description": ["“Live at the Austin Outhouse” captures Blaze Foley, Austin's legendary singer-songwriter, at his final appearance at the iconic Austin Outhouse venue. Recorded over two nights in 1989 just days before his tragic murder these twelve tracks are available on CD and vinyl LP for the first time.  Recorded by his friend John Casner these now classic Blaze tracks were for years only shared on hand-made cassettes among a small network of friends and fans.  The vinyl Record Store Day package marks the twenty-year anniversary of their initial release on CD.", "The tracks here include a number of Blaze classics; Clay Pigeons (covered by John Prine), If I Could Only Fly (covered by Merle Haggard), Election Day (covered by Lyle Lovett) and nine others.  Blaze is joined in this set by several of Austin’s most beloved musicians including Champ Hood and Sarah Elizabeth Campbell. “Live at the Austin Outhouse” reveals Blaze to be as talented and soulful as his friends and running buddies Townes Van Zandt and Lucinda Williams.", "The exclusive Record Store Day package includes a bonus reproduction copy of Blaze’s rare 1979 Zephyr Records 45 RPM record.  Recorded in Houston, Texas on a label that quickly disappeared, the Zephyr 45 never received commercial distribution.  The 45 includes an unreleased studio version of “If I Could Only Fly” and a track that was included in the Duct Tape Messiah soundtrack “Let Me Ride in Your Big Cadillac.”", "(LAR1015 and LAR1015V, 1999 & 2020)"],
-    "notes": "\n            Blaze Foley: Vocals, guitar.\n            Ed Bradfield: Harmonica.\n            Sarah Elizabeth Campbell: Vocals.\n            Lost John Casner: Piano.\n            Champ Hood: Fiddle.\n            David Waddell: Bass.\n          ",
+    "notes": "\n        Blaze Foley: Vocals, guitar.\n        Ed Bradfield: Harmonica.\n        Sarah Elizabeth Campbell: Vocals.\n        Lost John Casner: Piano.\n        Champ Hood: Fiddle.\n        David Waddell: Bass.\n      ",
     "quote": "",
     "purchase": [{
         "format": "CD",
         "price": "$15.99",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "KHSC722J6FDEN"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypal.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"KHSC722J6FDEN\"/>\n              <input type=\"image\" src=\"https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>        \n          "
     }, {
         "format": "LP and Bonus 45 RPM",
         "price": "$25.00",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "68TU5VLRSSK8A"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypalobjects.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"WD77B3487E45S\"/>\n              <input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>\n          "
     }],
     "pagePath": "/austinouthouse",
-    "spotify": {
-        "type": "iframe",
-        "key": null,
-        "ref": null,
-        "props": {
-            "title": "austinouthouse-spotify",
-            "src": "https://open.spotify.com/embed/album/20jfTvbCUwJjOAhPkeIv61",
-            "width": "300",
-            "height": "380",
-            "frameborder": "0",
-            "allowtransparency": "true",
-            "allow": "encrypted-media"
-        },
-        "_owner": null,
-        "_store": {}
-    }
+    "spotify": "\n        <iframe title='austinouthouse-spotify' src=\"https://open.spotify.com/embed/album/20jfTvbCUwJjOAhPkeIv61\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      "
 }, {
     "title": "Sittin' by the Road",
     "artist": "Blaze Foley",
     "coverFileName": "sittin-by-the-road-cover.jpg",
     "description": ["Captures Blaze Foley on his earliest known recordings. Simple, straightforward and strong, Sittin' By The Road contains a dozen tracks recorded during Blaze's 'treehouse' days in Georgia. Recorded in the mid-1970s on a home reel-to-reel machine, these songs showcase Blaze's talent in early form. Includes many of Foley's classic tunes plus three songs that do not appear on previous CDs.", "(LAR1020, 2010)"],
-    "notes": "\n            Mastered by Fred Remmert, Cedar Creek\n            Recording, Austin, TX. Special thanks to Lew\n            Gazaway and Gurf Morlix.\n          ",
+    "notes": "\n        Mastered by Fred Remmert, Cedar Creek\n        Recording, Austin, TX. Special thanks to Lew\n        Gazaway and Gurf Morlix.\n      ",
     "quote": "",
     "purchase": [{
         "format": "CD",
         "price": "$15.99",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "W53QAYNSQMJLS"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypal.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"W53QAYNSQMJLS\"/>\n              <input type=\"image\" src=\"https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>\n          "
     }],
     "pagePath": "/sittinbytheroad",
-    "spotify": {
-        "type": "iframe",
-        "key": null,
-        "ref": null,
-        "props": {
-            "title": "sittinbytheroad-spotify",
-            "src": "https://open.spotify.com/embed/album/3nyszXBcbHA92HAB5NPsRL",
-            "width": "300",
-            "height": "380",
-            "frameborder": "0",
-            "allowtransparency": "true",
-            "allow": "encrypted-media"
-        },
-        "_owner": null,
-        "_store": {}
-    }
+    "spotify": "\n        <iframe title='sittinbytheroad-spotify'src=\"https://open.spotify.com/embed/album/3nyszXBcbHA92HAB5NPsRL\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      "
 }, {
     "title": "Cold Cold World",
     "artist": "Blaze Foley & The Beaver Valley Boys",
     "coverFileName": "cold-cold-world-cover.jpg",
     "description": ["Captures Blaze Foley and his working band—the Beaver Valley Boys—on their first Texas studio recordings dating from 1979 and 1980. Blaze and the band—anchored by the reknowned Gurf Morlix—are at the top of their form. Cold, Cold World includes 17 Foley songs from his well-known classics to six songs that appear on a Foley recording for the first time. Produced by Gurf Morlix and John Hill. The vinyl LP, released in 2013, contains 13 songs and includes a free album download, plus the four extra songs that were on the original 2006 CD release.", "(LAR 1019V, 2013 / LAR 1019, 2006)"],
-    "notes": "\n            Blaze Foley: Vocals, guitar, bass.\n            Gurf Morlix: Bass, electric guitars, vocals.\n            Jimmy Don Smith: Electric guitar.\n            Tony Braunagel: Drums.\n            John Hill: Drums.\n            Riley Osbourn: Piano, slide guitar.\n          ",
+    "notes": "\n        Blaze Foley: Vocals, guitar, bass.\n        Gurf Morlix: Bass, electric guitars, vocals.\n        Jimmy Don Smith: Electric guitar.\n        Tony Braunagel: Drums.\n        John Hill: Drums.\n        Riley Osbourn: Piano, slide guitar.\n      ",
     "quote": "",
     "purchase": [{
         "format": "Vinyl",
         "price": "$20.00",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "WKWCUXVFN4TU6"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypalobjects.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"WKWCUXVFN4TU6\"/>\n              <input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>\n          "
     }, {
         "format": "CD",
         "price": "$15.99",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "S85PVRV8GWNFE"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypal.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"S85PVRV8GWNFE\"/>\n              <input type=\"image\" src=\"https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>\n          "
     }],
     "pagePath": "/coldcoldworld",
-    "spotify": {
-        "type": "iframe",
-        "key": null,
-        "ref": null,
-        "props": {
-            "title": "coldcoldworld-spotify",
-            "src": "https://open.spotify.com/embed/album/34vC7L9NqOPLfqw3xjGGTN",
-            "width": "300",
-            "height": "380",
-            "frameborder": "0",
-            "allowtransparency": "true",
-            "allow": "encrypted-media"
-        },
-        "_owner": null,
-        "_store": {}
-    }
+    "spotify": "\n        <iframe title='coldcoldworld-spotify' src=\"https://open.spotify.com/embed/album/34vC7L9NqOPLfqw3xjGGTN\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      "
 }, {
     "title": "Oval Room",
     "artist": "Blaze Foley",
     "coverFileName": "oval-room-cover.jpg",
     "description": ["Recorded just weeks before his tragic death in 1989, Oval Room draws from the same live sessions that were represented on Blaze Foley – Live at the Austin Outhouse, released to critical acclaim in 1999. Live at the Austin Outhouse sparked interest in Foley’s legend and mystique, earning him folk hero status among fans from Austin to Amsterdam. From in-your-face political commentary to heart-touching, sometimes heart-wrenching love songs, these recordings speak to Blaze’s uncompromising artistic vision. Produced by Gurf Morix and John Casner.", "(LAR 1018, 2004)"],
-    "notes": "\n            Blaze Foley: Vocals, guitar.\n            Ed Bradfield: Harmonica.\n            Tony DiRoadie: Harmonica.\n            Lost John Casner: Piano.\n            Champ Hood: Fiddle.\n            Pat Mears: Vocals.\n            Gurf Morlix: Guitars, bass, vocals.\n            John Hill/Leland Waddell: Drums.\n            Texana Dames: Vocals.\n            ",
+    "notes": "\n        Blaze Foley: Vocals, guitar.\n        Ed Bradfield: Harmonica.\n        Tony DiRoadie: Harmonica.\n        Lost John Casner: Piano.\n        Champ Hood: Fiddle.\n        Pat Mears: Vocals.\n        Gurf Morlix: Guitars, bass, vocals.\n        John Hill/Leland Waddell: Drums.\n        Texana Dames: Vocals.\n        ",
     "quote": "",
     "purchase": [{
         "format": "CD",
         "price": "$15.99",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "L5C9B5P4ZTZHN"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypal.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"L5C9B5P4ZTZHN\"/>\n              <input type=\"image\" src=\"https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>        \n          "
     }],
     "pagePath": "/ovalroom",
-    "spotify": {
-        "type": "iframe",
-        "key": null,
-        "ref": null,
-        "props": {
-            "title": "ovalroom-spotify",
-            "src": "https://open.spotify.com/embed/album/5UklcnwePgX8gDrOMTO4qS",
-            "width": "300",
-            "height": "380",
-            "frameborder": "0",
-            "allowtransparency": "true",
-            "allow": "encrypted-media"
-        },
-        "_owner": null,
-        "_store": {}
-    }
+    "spotify": "\n        <iframe title='ovalroom-spotify' src=\"https://open.spotify.com/embed/album/5UklcnwePgX8gDrOMTO4qS\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>    \n      "
 }, {
     "title": "Duct Tape Messiah",
     "artist": "Blaze Foley",
@@ -728,245 +113,35 @@
     "purchase": [{
         "format": "CD",
         "price": "$15.99",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "LJ2LFFVJP5WGU"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"LJ2LFFVJP5WGU\"/>\n              <input type=\"image\" src=\"https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/WEBSCR-640-20110401-1/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>\n          "
     }],
     "pagePath": "/ducttapemessiah",
-    "spotify": {
-        "type": "iframe",
-        "key": null,
-        "ref": null,
-        "props": {
-            "title": "ducttapemessiah-spotify",
-            "src": "https://open.spotify.com/embed/album/5fGFITqMvi1G0lQBplF4Ci",
-            "width": "300",
-            "height": "380",
-            "frameborder": "0",
-            "allowtransparency": "true",
-            "allow": "encrypted-media"
-        },
-        "_owner": null,
-        "_store": {}
-    }
+    "spotify": "\n        <iframe title='ducttapemessiah-spotify' src=\"https://open.spotify.com/embed/album/5fGFITqMvi1G0lQBplF4Ci\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>\n      "
 }, {
     "title": "Austin's Original Singer Songwriter",
     "artist": "Bill Neely",
     "coverFileName": "bill-neely-cover.jpg",
     "description": ["Austin is known as the breeding ground for a rich legacy of country and blues singer-songwriters. Bill Neely was Austin’s first. Bill Neely bridged the origins of country blues and the modern Texas singer/songwriter tradition. His talent as a writer and singer of Texas country and blues makes him a true Texas music treasure.", "(LAR 1016, 2002)"],
-    "notes": "\n            Bill Neely: Vocals, guitar.\n            Larry Kirbo: Guitar.\n            John Moyer: Bass.\n          ",
+    "notes": "\n        Bill Neely: Vocals, guitar.\n        Larry Kirbo: Guitar.\n        John Moyer: Bass.\n      ",
     "quote": "",
     "purchase": [{
         "format": "CD",
         "price": "$15.99",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "WGSW6YCYQ6LEN"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypal.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"WGSW6YCYQ6LEN\"/>\n              <input type=\"image\" src=\"https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>        \n          "
     }],
     "pagePath": "/billneely"
 }, {
     "title": "Duct Tape Messiah - Deluxe Edition",
     "artist": "",
-    "coverFileName": "duct-tape-doc-cover.jpg",
+    "coverFileName": "duct-tape-deluxe-cover.jpg",
     "albumPageCoverFileName": "duct-tape-deluxe-cover.jpg",
     "description": ["The award-winning documentary film Duct Tape Messiah by Kevin Triplett captures the legend of the iconic Texas singer-songwriter Blaze Foley. This 80-minute (director's cut) film provides insight into a complex songwriter's life by highlighting his roller-coaster career and detailing his transformation from musician to master songwriter. A must-have for anyone curious about Blaze's story and what it takes to become an authentic craftsman of songs. This deluxe edition includes an additional three hours of rare archival video performances by Blaze, additional animation, candid interviews, and deleted scenes.", "(LAR/ABP 1002, April 2014)"],
     "quote": "",
     "purchase": [{
         "format": "DVD",
         "price": "$18.00",
-        "link": {
-            "type": "form",
-            "key": null,
-            "ref": null,
-            "props": {
-                "target": "paypal",
-                "action": "https://www.paypal.com/cgi-bin/webscr",
-                "method": "post",
-                "children": [{
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "cmd",
-                        "value": "_s-xclick"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "hidden",
-                        "name": "hosted_button_id",
-                        "value": "QAGSMPA63SQDJ"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "input",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "type": "image",
-                        "src": "https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif",
-                        "border": "0",
-                        "name": "submit",
-                        "alt": "PayPal - The safer, easier way to pay online!"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }, {
-                    "type": "img",
-                    "key": null,
-                    "ref": null,
-                    "props": {
-                        "alt": "",
-                        "border": "0",
-                        "src": "https://www.paypalobjects.com/en_US/i/scr/pixel.gif",
-                        "width": "1",
-                        "height": "1"
-                    },
-                    "_owner": null,
-                    "_store": {}
-                }]
-            },
-            "_owner": null,
-            "_store": {}
-        }
+        "link": "\n            <form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n              <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"/>\n              <input type=\"hidden\" name=\"hosted_button_id\" value=\"QAGSMPA63SQDJ\"/>\n              <input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\"/>\n              <img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\"/>\n            </form>\n          "
     }],
     "pagePath": "/ducttapedoc",
-    "video": {
-        "type": "iframe",
-        "key": null,
-        "ref": null,
-        "props": {
-            "title": "duct-tape-messiah-trailer",
-            "width": "560",
-            "height": "315",
-            "src": "https://www.youtube.com/embed/tz2kULLO0Sc",
-            "frameborder": "0",
-            "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-            "allowfullscreen": true
-        },
-        "_owner": null,
-        "_store": {}
-    }
+    "video": "\n        <iframe title='duct-tape-messiah-trailer' width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/tz2kULLO0Sc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n      "
 }]

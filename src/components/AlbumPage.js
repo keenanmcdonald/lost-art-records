@@ -1,5 +1,6 @@
 import React from 'react'
 import './AlbumPage.css'
+import ReactHtmlParser from 'react-html-parser'
 
 function AlbumPage(props) {
 
@@ -14,7 +15,7 @@ function AlbumPage(props) {
         purchaseLinks.push(
             <div key={i} className='purchase-link'>
                 <p>{`${props.purchase[i].format}: ${props.purchase[i].price}`}</p>
-                {props.purchase[i].link}
+                {ReactHtmlParser(props.purchase[i].link)}
                 {props.purchase[i].note ? <p className='purchase-note'>{props.purchase[i].note}</p> : ''}
             </div>
         )
@@ -41,7 +42,7 @@ function AlbumPage(props) {
             {props.spotify ? (
                 <div className='spotify-container center-content'>
                     <h3>Listen on Spotify</h3>
-                    {props.spotify}
+                    {ReactHtmlParser(props.spotify)}
                 </div>
             ) : ''}
             <div className='purchase-container center-content'>

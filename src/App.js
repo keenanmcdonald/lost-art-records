@@ -4,13 +4,14 @@ import AlbumPage from './components/AlbumPage'
 import {Route, withRouter} from 'react-router-dom'
 import './App.css';
 import ScrollToTop from './components/ScrollToTop'
+import ALBUMS from './album-data'
 
 class App extends React.Component{
   constructor(props){
     super(props)
 
     this.state = {
-      albums: [],
+      albums: ALBUMS,
       loaded: false
     }
 
@@ -23,9 +24,10 @@ class App extends React.Component{
 
   async getData() {
     const res = await fetch("/album-data.json");
-    const albums = await res.text();
+    const resText = await res.text();
+    const albums = await JSON.parse(resText)
     console.log(albums);
-    //return this.setState({albums, loaded: true});
+    return this.setState({albums, loaded: true});
   }
 
   componentDidMount() {
