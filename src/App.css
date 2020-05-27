@@ -1,3 +1,7 @@
+.standin{
+  border: white 1px dotted;
+}
+
 body{
   background-color: rgb(19, 19, 19);
   color: rgb(240, 240, 240);
@@ -27,7 +31,6 @@ p {
   margin-top: 20px;
   letter-spacing: 2px;
 }
-
 
 a {
   color: rgb(240, 240, 240);
@@ -62,24 +65,19 @@ footer{
 }
 
 .album-list {
+  width: 80%;
+  margin: 14px auto;
   display: grid;
-  grid-template-columns: 30vw 30vw 30vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-top: 40px;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
 }
 
 .album-icon {
-  position: relative;
-  width: 30vw;
-  height: 30vw;
-  margin: 1px;
-  text-align: center;
+  width: 70vw;
+  height: 80vh;
 }
 
 .album-cover {
-  display: block;
-  width: 70%;
   height: 70%;
   transition: .2s ease;
   border-radius: 2px;
@@ -98,8 +96,6 @@ footer{
 
 .album-icon:hover .album-cover{
   filter: none;
-  height: 71%;
-  width: 71%;
 }
 
 .contact-info{
